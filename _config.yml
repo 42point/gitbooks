@@ -233,6 +233,12 @@ collections:
   gitbooks:
       output: true
       permalink: /:collection/:path/
+  gitbook_nebuladevice:
+      output: true
+      permalink: /:collection/:path/
+  gitbook_unirx:
+      output: true
+      permalink: /:collection/:path/
 
 defaults:
   # _portfolio
