@@ -233,3 +233,13 @@ collections:
   gitbooks:
       output: true
       permalink: /:collection/:path/
+
+defaults:
+  # _portfolio
+  - scope:
+      path: ""
+      type: gitbooks
+    values:
+      layout: single
+      author_profile: false
+      share: true
