@@ -229,5 +229,7 @@ compress_html:
     envs: development
 
 # Collection
-collection:
-  - gitbooks 
+collections:
+  gitbooks:
+      output: true
+      permalink: /:collection/:path/
